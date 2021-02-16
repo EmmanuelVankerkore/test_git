@@ -1,3 +1,22 @@
+# 0 Paramétrer son git avant la première utilisation
+
+## Contexte:
+```
+    Contenu du Git --> Null
+    Contenu du GitHub --> Null
+```
+
+## Commande:
+```
+    git config --global user.name "<nom d'utilisateur>"
+    git config --global user.email "<adresse email>"
+```
+
+## Résultat:
+```
+    Git peut maintenant être utilisé.
+```
+
 # 1 Initialisation
 
 ## Contexte:
@@ -88,4 +107,106 @@
 ## Résultat:
 ```
     Par défaut, la branche actuelle se nomme "master"
+```
+
+# 6 Ajout d'une nouvelle branche
+
+## Contexte:
+```
+    
+```
+
+## Commande:
+```
+    git checkout -b "<nom de la nouvelle branche>"
+```
+
+## Résultat:
+```
+    
+```
+
+# 7 Se déplacer vers une branche existante
+
+## Contexte:
+```
+    
+```
+
+## Commande:
+```
+    git checkout "<nom de la branche existante>"
+```
+
+## Résultat:
+```
+    
+```
+
+# 8
+
+## Contexte:
+```
+    
+```
+
+## Commande:
+```
+    git stash
+```
+
+## Résultat:
+```
+    
+```
+
+# 9
+
+## Contexte:
+```
+    
+```
+
+## Commande:
+```
+    git stash pop
+```
+
+## Résultat:
+```
+    
+```
+
+# 10 Renommer le nom d'une branche
+
+## Contexte:
+```
+    
+```
+
+## Commande:
+```
+    git branch -M <nouveau nom de la branche actuelle>
+```
+
+## Résultat:
+```
+    
+```
+
+# 11 Définir la télécommande d'accès direct au GitHub
+
+## Contexte:
+```
+    
+```
+
+## Commande:
+```
+    git remote add origin <url>
+```
+
+## Résultat:
+```
+    
 ```
