@@ -71,3 +71,21 @@
     Si affichage en vert --> prêt pour le commit.
     Sinon tout est en ordre.
 ```
+
+# 5 la branche actuelle
+
+## Contexte:
+```
+    Contenu du Git --> Nouveau(x) document(s)
+    Contenu du GitHub --> Aucun document
+```
+
+## Commande:
+```
+    git branch
+```
+
+## Résultat:
+```
+    Par défaut, la branche actuelle se nomme "master"
+```
