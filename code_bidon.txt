@@ -1,0 +1,1 @@
+Dans tout le code, il faut un switch (fortement recommandé par Killian)
